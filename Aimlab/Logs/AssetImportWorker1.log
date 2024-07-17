@@ -15,7 +15,7 @@ C:/Users/ASUS/Documents/GitHub/Aimlab_Unity/Aimlab
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55598
+57730
 Successfully changed project path to: C:/Users/ASUS/Documents/GitHub/Aimlab_Unity/Aimlab
 C:/Users/ASUS/Documents/GitHub/Aimlab_Unity/Aimlab
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/ASUS/Documents/GitHub/Aimlab_Unity/Aimlab
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [53140] Host "[IP] 172.28.2.0 [Port] 0 [Flags] 2 [Guid] 3547482293 [EditorId] 3547482293 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RVVS7M0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15744] Host "[IP] 26.144.5.181 [Port] 0 [Flags] 2 [Guid] 571210480 [EditorId] 571210480 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RVVS7M0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [53140] Host "[IP] 172.28.2.0 [Port] 0 [Flags] 2 [Guid] 3547482293 [EditorId] 3547482293 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RVVS7M0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15744] Host "[IP] 26.144.5.181 [Port] 0 [Flags] 2 [Guid] 571210480 [EditorId] 571210480 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RVVS7M0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
-Refreshing native plugins compatible for Editor in 12.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.24f1 (334eb2a0b267)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Resources/UnitySubsystems
@@ -64,50 +64,50 @@ Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
     Vendor:   NVIDIA
-    VRAM:     7948 MB
-    Driver:   31.0.15.5123
+    VRAM:     7963 MB
+    Driver:   31.0.15.4680
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007879 seconds.
-- Loaded All Assemblies, in  0.666 seconds
+Registered in 0.004821 seconds.
+- Loaded All Assemblies, in  0.230 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.359 seconds
-Domain Reload Profiling: 1022ms
-	BeginReloadAssembly (256ms)
+- Finished resetting the current domain, in  0.193 seconds
+Domain Reload Profiling: 422ms
+	BeginReloadAssembly (72ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (84ms)
-	LoadAllAssembliesAndSetupDomain (256ms)
-		LoadAssemblies (257ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (89ms)
+		LoadAssemblies (71ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (250ms)
-			TypeCache.Refresh (248ms)
-				TypeCache.ScanAssembly (222ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (360ms)
+		AnalyzeDomain (87ms)
+			TypeCache.Refresh (86ms)
+				TypeCache.ScanAssembly (77ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (193ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (282ms)
+		SetupLoadedEditorAssemblies (150ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (194ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 1022ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.088 seconds
-Refreshing native plugins compatible for Editor in 3.27 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.459 seconds
+Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.733 seconds
-Domain Reload Profiling: 1818ms
-	BeginReloadAssembly (185ms)
+- Finished resetting the current domain, in  0.462 seconds
+Domain Reload Profiling: 919ms
+	BeginReloadAssembly (102ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (797ms)
-		LoadAssemblies (528ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (291ms)
+		LoadAssemblies (215ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (377ms)
-			TypeCache.Refresh (341ms)
-				TypeCache.ScanAssembly (314ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (734ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (104ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (463ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (549ms)
+		SetupLoadedEditorAssemblies (352ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (428ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (5ms)
-		ExecutionOrderSort2 (1ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 7.21 ms, found 3 plugins.
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4024 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 59 unused Assets / (185.7 KB). Loaded Objects now: 4489.
-Memory consumption went from 151.1 MB to 150.9 MB.
-Total: 4.451500 ms (FindLiveObjects: 0.269900 ms CreateObjectMapping: 0.115800 ms MarkObjects: 3.848300 ms  DeleteObjects: 0.216200 ms)
+Unloading 4040 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (185.9 KB). Loaded Objects now: 4506.
+Memory consumption went from 155.3 MB to 155.2 MB.
+Total: 3.321400 ms (FindLiveObjects: 0.195700 ms CreateObjectMapping: 0.073700 ms MarkObjects: 2.911100 ms  DeleteObjects: 0.139900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -178,112 +178,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 331657.232759 seconds.
-  path: Assets/Resources/DOTweenSettings.asset
-  artifactKey: Guid(cf7c3dab88c227d42b1f973c2c41c315) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Resources/DOTweenSettings.asset using Guid(cf7c3dab88c227d42b1f973c2c41c315) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '06d3be0b84d38f32849778471d0619c6') in 0.093200 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/ExternalAssets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 11.prefab
-  artifactKey: Guid(9058260c08717d340aa6d4f552e69e27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExternalAssets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 11.prefab using Guid(9058260c08717d340aa6d4f552e69e27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7676dceb5cd684856075e013a637e916') in 0.035386 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ExternalAssets/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs
-  artifactKey: Guid(188918ab119d93148aa0de59ccf5286b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExternalAssets/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs using Guid(188918ab119d93148aa0de59ccf5286b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '10f4e5dd0cc8f75b0c5c782b5a9db106') in 0.013870 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/ExternalAssets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 8.prefab
-  artifactKey: Guid(c460780050234874594e9f7a0f7decc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExternalAssets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 8.prefab using Guid(c460780050234874594e9f7a0f7decc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '56139a7f46dfff368b2a6461ed964d38') in 0.022206 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/ExternalAssets/Ishikawa1116/LOW-POLY GUNS PACK_SAMPLE/DemoScene and Manual/Instruction manual - [Sample]LOW-POLY GUNS PACK.pdf
-  artifactKey: Guid(5d93bceb0541a8349b41e2c5e35b3134) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExternalAssets/Ishikawa1116/LOW-POLY GUNS PACK_SAMPLE/DemoScene and Manual/Instruction manual - [Sample]LOW-POLY GUNS PACK.pdf using Guid(5d93bceb0541a8349b41e2c5e35b3134) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd7008b155303e892e204eccc6bd52612') in 0.012379 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/ExternalAssets/Demigiant/DOTween/Editor/Imgs/Footer_dark.png
-  artifactKey: Guid(519694efe2bb2914788b151fbd8c01f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExternalAssets/Demigiant/DOTween/Editor/Imgs/Footer_dark.png using Guid(519694efe2bb2914788b151fbd8c01f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '855ae1072f6bdc0f1f14907b25058125') in 0.054666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ExternalAssets/Toon Muzzleflash Pack/Components/Spritesheets/Front/toon_muzzleflash_front_spritesheet_2.png
-  artifactKey: Guid(ec991a388184d214d8c9bef68873b65a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExternalAssets/Toon Muzzleflash Pack/Components/Spritesheets/Front/toon_muzzleflash_front_spritesheet_2.png using Guid(ec991a388184d214d8c9bef68873b65a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e40a0da58d2897cd96fc55a04199c690') in 0.033981 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ExternalAssets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 5.prefab
-  artifactKey: Guid(62d07207e73637c428642d14ef91b778) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExternalAssets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 5.prefab using Guid(62d07207e73637c428642d14ef91b778) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '28f94c18168fc3721e21321b74c6498f') in 0.021141 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ExternalAssets/Ishikawa1116/LOW-POLY GUNS PACK_SAMPLE/Prefabs/Snow/Rifle/Rifle_00_07_08_mag.prefab
-  artifactKey: Guid(397fd93c245c8404792391f60eb9c171) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExternalAssets/Ishikawa1116/LOW-POLY GUNS PACK_SAMPLE/Prefabs/Snow/Rifle/Rifle_00_07_08_mag.prefab using Guid(397fd93c245c8404792391f60eb9c171) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e24dd4fc43e17de426394e38424c780') in 0.019850 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/ExternalAssets/Ishikawa1116/LOW-POLY GUNS PACK_SAMPLE/Prefabs/Black and common color/Bullet and other prop/Pistolbullet.prefab
-  artifactKey: Guid(7050c910fa7f7934cbf7a468d6f75217) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExternalAssets/Ishikawa1116/LOW-POLY GUNS PACK_SAMPLE/Prefabs/Black and common color/Bullet and other prop/Pistolbullet.prefab using Guid(7050c910fa7f7934cbf7a468d6f75217) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'efffcee1024347437a0ac00d736b4123') in 0.026521 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ExternalAssets/Toon Muzzleflash Pack/Components/Spritesheets/Side/toon_muzzleflash_side_spritesheet_1.png
-  artifactKey: Guid(e91c78da749a5d44db424d8dbc3d09d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExternalAssets/Toon Muzzleflash Pack/Components/Spritesheets/Side/toon_muzzleflash_side_spritesheet_1.png using Guid(e91c78da749a5d44db424d8dbc3d09d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '64ad2e100e01d734cdc9dce1cf1120b4') in 0.028304 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/ExternalAssets/Ishikawa1116/LOW-POLY GUNS PACK_SAMPLE/Textures/Texture_black.png
-  artifactKey: Guid(6371ba44e1e695640bb1cf43e0f80d25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExternalAssets/Ishikawa1116/LOW-POLY GUNS PACK_SAMPLE/Textures/Texture_black.png using Guid(6371ba44e1e695640bb1cf43e0f80d25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '327256ab38f869ca085455c9fe99eac7') in 0.017960 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/ExternalAssets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 21.prefab
-  artifactKey: Guid(a537f804ed82f9046a91ed38520d6b87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ExternalAssets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 21.prefab using Guid(a537f804ed82f9046a91ed38520d6b87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd5b460b09b0b0ae3a0bbb3dced3595d0') in 0.018820 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
