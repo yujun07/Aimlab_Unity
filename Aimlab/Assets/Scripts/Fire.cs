@@ -24,7 +24,6 @@ public class Fire : MonoBehaviour
             }
             CaculateAccuracy();
         }
-        
     }
 
     private void Shoot()
@@ -35,6 +34,12 @@ public class Fire : MonoBehaviour
             Debug.Log("hit");
             GameManager.instance.Score++;
             successfulHits++;
+            GetComponent<AudioSource>().Play();
+            Target target = hit.transform.GetComponent<Target>();
+            if (target != null)
+            {
+                target.OnHit();
+            }
         }
         else
         {

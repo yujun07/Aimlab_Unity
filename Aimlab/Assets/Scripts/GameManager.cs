@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public PlayerCam playerCam;
+    public TargetSpawner targetSpawner;
 
     public TextMeshProUGUI scoreTxt;
     public TextMeshProUGUI accuracyTxt;
@@ -31,11 +32,9 @@ public class GameManager : MonoBehaviour
     int score = 0;
     float accuracy = 0;
 
-    
-
     private void Awake()
     {
-        if(instance == null)
+        if (instance == null)
         {
             instance = this;
         }
@@ -44,6 +43,7 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
     public int Score
     {
         get
@@ -56,6 +56,7 @@ public class GameManager : MonoBehaviour
             scoreTxt.text = score.ToString();
         }
     }
+
     public float Accuracy
     {
         get
@@ -68,11 +69,13 @@ public class GameManager : MonoBehaviour
             accuracyTxt.text = accuracy.ToString("F2") + "%";
         }
     }
+
     public void SetTimer()
     {
         limitTime = timerSlider.value;
         timerValTxt.text = "Timer: " + timerSlider.value.ToString();
     }
+
     public void SetSens()
     {
         sens = sensSlider.value;
@@ -80,17 +83,21 @@ public class GameManager : MonoBehaviour
         playerCam.sensX = sens * 100;
         playerCam.sensY = sens * 100;
     }
+
     public void StartBtn()
     {
         isGameStarted = true;
         startPanel.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        targetSpawner.StartSpawning();
     }
+
     public void Restart()
     {
         SceneManager.LoadScene(0);
     }
+
     private void Start()
     {
         score = 0;
@@ -102,7 +109,9 @@ public class GameManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         playerCam = GameObject.Find("Main Camera").gameObject.GetComponent<PlayerCam>();
+        targetSpawner = FindObjectOfType<TargetSpawner>();
     }
+
     private void Update()
     {
         if (isGameOver)
@@ -113,11 +122,16 @@ public class GameManager : MonoBehaviour
             Cursor.visible = true;
             isGameStarted = false;
         }
+
         if (!isGameOver && isGameStarted)
         {
             limitTime -= Time.deltaTime;
             timeTxt.text = limitTime.ToString("F1");
-            if (limitTime <= 0) isGameOver = true;
+
+            if (limitTime <= 0)
+            {
+                isGameOver = true;
+            }
         }
     }
 }
